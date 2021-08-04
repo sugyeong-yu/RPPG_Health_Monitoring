@@ -1,0 +1,7 @@
+code/*.mp4
+code/model_rppg/
+code/model/
+code/__pycache__/
+code/.ipynb_checkpoints/
+code/.idea/
+code/*.csv
