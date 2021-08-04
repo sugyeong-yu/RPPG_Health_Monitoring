@@ -4,7 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import scipy
-from keras.models import load_model
+
+from tensorflow.keras.models import load_model
 from scipy.signal import find_peaks
 
 from sklearn.preprocessing import MinMaxScaler

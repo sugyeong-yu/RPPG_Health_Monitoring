@@ -14,8 +14,8 @@ minBPM = 42
 maxBPM = 240
 
 ## 실시간 rPPG모니터링 ##
-rPPG_chrom.real_time_cv2(video_path, fs, minBPM, maxBPM)
-
+#rPPG_chrom.real_time_cv2(video_path, fs, minBPM, maxBPM)
+rPPG_chrom.real_time_hrv(video_path, fs, minBPM, maxBPM)
 
 
 
