@@ -21,9 +21,17 @@ RPPG기술을 이용한 건강 모니터링 SW
 ![image](https://user-images.githubusercontent.com/70633080/131788175-367f8797-e886-4eab-9779-367b8d109cd5.png)
 - [사용법]()
 - 환경구축
+  - python
   - tensorflow 2.0 이상
   - scikit-learn 0.24.0
   - PyQt 5.15.4
   - opencv-python 4.5.1.48
   - heartpy 1.2.6
   - hrv-analysis 1.0.3 
+- code
+  - analysis_functions.py : RPPG/resotred/spo2/hrv code
+  - functions.py : analysis_functions에 필요한 sub functions
+  - get_rgb_function.py : RPPG 추출
+  - monitoring_5.ui : SW ui 파일
+  - result_dialog.py : health analysis 완료 후 분석결과 팝업 창 생성 ui
+  - UI_9.py : main file, UI 동작/thread/button event 
