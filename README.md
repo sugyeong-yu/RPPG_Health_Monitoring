@@ -19,7 +19,7 @@ RPPG기술을 이용한 건강 모니터링 SW
 
 ## Monitoring SW UI
 ![image](https://user-images.githubusercontent.com/70633080/131788175-367f8797-e886-4eab-9779-367b8d109cd5.png)
-- [사용법]()
+- [사용법](https://github.com/sugyeong-yu/RPPG_Health_Monitoring/blob/main/%EB%B0%9C%ED%91%9C%20%EC%9E%90%EB%A3%8C.pptx)
 - 환경구축
   - python
   - tensorflow 2.0 이상
