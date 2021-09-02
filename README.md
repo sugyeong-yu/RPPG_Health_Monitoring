@@ -34,4 +34,4 @@ RPPG기술을 이용한 건강 모니터링 SW
   - [get_rgb_function.py](https://github.com/sugyeong-yu/RPPG_Health_Monitoring/blob/main/code/get_rgb_function.py) : RPPG 측정에 필요한 얼굴 영역으로 부터 rgb 성분 추출
   - monitoring_5.ui : SW ui 파일
   - result_dialog.py : health analysis 완료 후 분석결과 팝업 창 생성 ui
-  - UI_9.py : main file, UI 동작/thread/button event 
+  - [UI_9.py](https://github.com/sugyeong-yu/RPPG_Health_Monitoring/blob/main/code/UI_9.py) : main file, UI 동작/thread/button event 
