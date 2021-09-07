@@ -8,8 +8,8 @@ RPPG기술을 이용한 건강 모니터링 SW
 > : 카메라를 이용해 비접촉식으로 PPG를 측정할 수 있는 기술
 > - [참고논문](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-26/issue-6/063003/Contactless-physiological-signals-extraction-based-on-skin-color-magnification/10.1117/1.JEI.26.6.063003.short?SSO=1)
 > ### Resotred PPG
->  : CPPG의 quality 수준으로 RPPG신호를 복원하는 기술
->  - [참고논문]()
+>  : CPPG의 수준으로 RPPG신호를 복원하는 기술
+>  - [참고논문](https://www.mdpi.com/1424-8220/21/17/5910)
 > ### Spo2
 >  : RPPG를 이용해 산소포화도를 측정할 수 있는 기술
 >  - [참고논문]()
