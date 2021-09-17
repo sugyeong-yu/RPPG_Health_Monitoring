@@ -15,7 +15,7 @@ RPPG기술을 이용한 건강 모니터링 SW
 >  - [참고논문]()
 > ### HRV
 >  : RPPG를 이용해 심박변이도를 분석할 수 있는 기술
->  - [참고논문]()
+>  - [참고논문](https://www.mdpi.com/1424-8220/21/18/6241)
 
 ## Monitoring SW UI
 - [Usage Scenarios](https://github.com/sugyeong-yu/RPPG_Health_Monitoring/blob/main/%EB%B0%9C%ED%91%9C%20%EC%9E%90%EB%A3%8C.pptx)
