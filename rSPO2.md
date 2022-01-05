@@ -5,8 +5,7 @@
 - 저산소증일 경우 뇌, 심장, 폐 등 장기에 심각한 손상을 입힐 수 있다.
 - 따라서 질병의 bio marker로 사용 ex) COVID-19 등
 
-
-**[산소포화도의 중요성]**
+### 산소포화도의 중요성
 1. 수술실, 중환자실, 신생아 치료에 사용되어 중요한 정보 사용
     - 마취를 한 수술 이후, 저산소증이 자주 발생하는데 이는 호흡기계, 심혈관계 합병증을 초래한다. 
     - 지속적인 산소포화도 측정을 통해 저산소증을 초기에 발견 가능함
@@ -43,10 +42,23 @@
 ### 산소포화도 측정 원리
 ![image](https://user-images.githubusercontent.com/70633080/148179281-3a23a97c-6ab2-4598-abab-865727f21296.png)\
 빛의 파장에 따른 헤모글로빈의 absorption coefficient
-- absorption coefficient: 흡광 계수
+- absorption coefficient: 흡광 계수, 물질이 빛을 얼마나 흡수하는가, 빛이 침투할 수 있는 거리
 - 빛 흡수량 증가 => absorption coefficient 증가
 - 파장에 따라 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 다름 
-#### Beer-Lambert 법칙 
+- PPG 신호와 Beer-Lambert 법칙이 사용됨
+
+**[Beer-Lambert 법칙]** 
 특정 물질에 대해 측정된 흡광도는 물질 농도와 물질을 통과하는 빛의 경로 길이와 비례한다는 법칙\
 ![image](https://user-images.githubusercontent.com/70633080/148180725-b800959b-13c7-40c2-97c8-d0682aaa3e73.png) ![image](https://user-images.githubusercontent.com/70633080/148180621-10d3a7fe-2337-4865-9de0-f0fa9fce059e.png)
-- 이를 통해 혈액 내 산소화 헤모글로빈과 탈산소화 헤모글로빈의 농도를 알 수 있음. 
+- 혈액량 뿐만 아니라 헤모글로빈의 종류와 농도도 빛의 흡수량에 영향을 미친다. 
+- red와 IR(infaraed) 또는 green 파장은 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 반대 특성을 가짐
+- red: 탈산소화 헤모글로빈이 산소화 헤모글로빈보다 red파장의 빛을 더 강하게 흡수
+- IR & green: 산소화 헤모글로빈이 탈산소화 헤모글로빈보다 빛을 더 강하게 흡수
+- 특히, red와 IR이 뚜렷하게 반대의 특성을 지녀 대부분의 산소포화도 측정 시 광원으로 사용됨
+
+**[PPG AC 성분]**
+- PPG = 맥동 파형 AC 신호 + 비박동 파형 DC
+- 산소포화도 계산을 위해서는 산소포화도와 관련된 정보만 남겨야함
+- 박동성 파형은 동맥 산소 포화도에 대한 정보를 포함하고 있다고 밝혀짐 \
+=> DC 성분은 제외하고 AC 성분을 사용하여 산소포화도를 측정
+
