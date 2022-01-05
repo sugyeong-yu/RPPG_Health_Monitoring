@@ -43,19 +43,14 @@
 ![image](https://user-images.githubusercontent.com/70633080/148179281-3a23a97c-6ab2-4598-abab-865727f21296.png)\
 빛의 파장에 따른 헤모글로빈의 absorption coefficient
 - absorption coefficient: 흡광 계수, 물질이 빛을 얼마나 흡수하는가, 빛이 침투할 수 있는 거리
-- 빛 흡수량 증가 => absorption coefficient 증가
-- 파장에 따라 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 다름 
-- PPG 신호와 Beer-Lambert 법칙이 사용됨
-
-**[Beer-Lambert 법칙]** 
-
-특정 물질에 대해 측정된 흡광도는 물질 농도와 물질을 통과하는 빛의 경로 길이와 비례한다는 법칙\
-![image](https://user-images.githubusercontent.com/70633080/148180725-b800959b-13c7-40c2-97c8-d0682aaa3e73.png) ![image](https://user-images.githubusercontent.com/70633080/148180621-10d3a7fe-2337-4865-9de0-f0fa9fce059e.png)
-- 혈액량 뿐만 아니라 헤모글로빈의 종류와 농도도 빛의 흡수량에 영향을 미친다. 
-- red와 IR(infaraed) 또는 green 파장은 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 반대 특성을 가짐
-- red: 탈산소화 헤모글로빈이 산소화 헤모글로빈보다 red파장의 빛을 더 강하게 흡수
-- IR & green: 산소화 헤모글로빈이 탈산소화 헤모글로빈보다 빛을 더 강하게 흡수
-- 특히, red와 IR이 뚜렷하게 반대의 특성을 지녀 대부분의 산소포화도 측정 시 광원으로 사용됨
+    - 빛 흡수량 증가 => absorption coefficient 증가
+    - 파장에 따라 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 다름 
+    - red와 IR(infaraed) 또는 green 파장은 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 반대 특성을 가짐
+    - red: 탈산소화 헤모글로빈이 산소화 헤모글로빈보다 red파장의 빛을 더 강하게 흡수
+    - IR & green: 산소화 헤모글로빈이 탈산소화 헤모글로빈보다 빛을 더 강하게 흡수
+    - 특히, red와 IR이 뚜렷하게 반대의 특성을 지녀 대부분의 산소포화도 측정 시 광원으로 사용됨
+- 산소포화도 측정을 위해 1. 두 헤모글로빈이 어떤 농도로 혈액에 포함? 2. 혈류량의 변화 에 대해 알아야함
+- 따라서 PPG 신호의 AC성분과 Beer-Lambert 법칙이 사용됨
 
 **[PPG AC 성분]**
 
@@ -64,3 +59,14 @@
 - 박동성 파형은 동맥 산소 포화도에 대한 정보를 포함하고 있다고 밝혀짐 \
 => DC 성분은 제외하고 AC 성분을 사용하여 산소포화도를 측정
 
+**[Beer-Lambert 법칙]** 
+
+특정 물질에 대해 측정된 흡광도는 물질 농도와 물질을 통과하는 빛의 경로 길이와 비례한다는 법칙\
+![image](https://user-images.githubusercontent.com/70633080/148180725-b800959b-13c7-40c2-97c8-d0682aaa3e73.png) ![image](https://user-images.githubusercontent.com/70633080/148180621-10d3a7fe-2337-4865-9de0-f0fa9fce059e.png)
+- 혈액량 뿐만 아니라 헤모글로빈의 종류와 농도도 빛의 흡수량에 영향을 미친다. 
+- Beer 법칙 (헤모글로빈 농도)
+    - 물질의 농도는 특정파장에서 물질이 흡수하는 빛의 양에 의해 결정된다는 것 (흡광도와 물질 농도의 관계) 
+    - **산소화 헤모글로빈과 탈산소화 헤모글로빈의 농도는 두 헤모글로빈이 특정 파장의 빛을 얼마나 흡수하는지를 통해 구할 수 있음.**
+- Lambert 법칙 (혈류양)
+    - 흡수층의 두께 즉, 빛이 통과하는 경로의 길이는 흡광도와 비례하다는 것 (흡광도와 물질 두께,양의 관계)   
+    - 맥동 시, 빛이 이동하는 경로 길이가 변하는 것을 측정할 수 있다. 즉, **혈류양을 구할 수 있다.**
