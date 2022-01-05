@@ -41,7 +41,7 @@
 
 ### 산소포화도 측정 원리
 ![image](https://user-images.githubusercontent.com/70633080/148179281-3a23a97c-6ab2-4598-abab-865727f21296.png)\
-빛의 파장에 따른 헤모글로빈의 absorption coefficient를 이
+빛의 파장에 따른 헤모글로빈의 absorption coefficient를 이용
 - absorption coefficient: 흡광 계수, 물질이 빛을 얼마나 흡수하는가, 빛이 침투할 수 있는 거리
     - 빛 흡수량 증가 => absorption coefficient 증가
     - 파장에 따라 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 다름 
