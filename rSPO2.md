@@ -15,13 +15,6 @@
     - 산소가 부족해지면 신체에 피로가 유발되어 체력적으로 과부하가 오는 상황이 발생할 수 있음
 3. 뇌기능, 인지능력, 면역력, 체력 등 건강상태확인가능
 
-**[산소포화도 측정 원리]**
-![image](https://user-images.githubusercontent.com/70633080/148179281-3a23a97c-6ab2-4598-abab-865727f21296.png)\
-빛의 파장에 따른 헤모글로빈의 absorption coefficient
-- absorption coefficient: 흡광 계수
-- 빛 흡수량 증가 => absorption coefficient 증가
-- 파장에 따라 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 다름 
-
 ### 접촉식 산소포화도(SPO2) 측정
 - 일반적으로 유선을 연결된 센서를 손가락이니 귓볼과 같은 신체에 접촉시켜 비침습적으로 측정
 - 사용자의 불편함과 피부 자극 유발
@@ -35,13 +28,6 @@
                                   => 비접촉식 산소포화도 측정이라는 솔루션으로 해결가능
 
 ## Background
-
-
-#### Beer-Lambert 법칙 
-특정 물질에 대해 측정된 흡광도는 물질 농도와 물질을 통과하는 빛의 경로 길이와 비례한다는 법칙\
-![image](https://user-images.githubusercontent.com/70633080/148180725-b800959b-13c7-40c2-97c8-d0682aaa3e73.png) ![image](https://user-images.githubusercontent.com/70633080/148180621-10d3a7fe-2337-4865-9de0-f0fa9fce059e.png)
-- 이를 통해 혈액 내 산소화 헤모글로빈과 탈산소화 헤모글로빈의 농도를 알 수 있음. 
-
 ### Contact Photoplethysmography (CPPG)
 - 미세혈관층에서의 혈액량 변화를 감지하기 위한 광학 기술
 - 주로 PPG 센서를 피부 표면에 접촉시킨 후 빛을 입사하여 반사 또는 투과되는 빛을 측정
@@ -54,8 +40,13 @@
 - 혈액량 증가 -> 빛의 흡수량 증가, 빛의 반사 또는 투과량 감소
 - 혈액량 감소 -> 빛의 흡수량 감소, 빛의 반사 또는 투과량 증가
 
-PPG센서의 광원으로는 다양한 파장의 빛이 사용될 수 있다.
-- blue : 표피 주변의 적혈구에 의해 대부분 흡수됨
-- green-yellow (500~600nm) 파장의 빛도 적혈구에 의해 비교적 많이 흡수됨.
-
-
+### 산소포화도 측정 원리
+![image](https://user-images.githubusercontent.com/70633080/148179281-3a23a97c-6ab2-4598-abab-865727f21296.png)\
+빛의 파장에 따른 헤모글로빈의 absorption coefficient
+- absorption coefficient: 흡광 계수
+- 빛 흡수량 증가 => absorption coefficient 증가
+- 파장에 따라 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 다름 
+#### Beer-Lambert 법칙 
+특정 물질에 대해 측정된 흡광도는 물질 농도와 물질을 통과하는 빛의 경로 길이와 비례한다는 법칙\
+![image](https://user-images.githubusercontent.com/70633080/148180725-b800959b-13c7-40c2-97c8-d0682aaa3e73.png) ![image](https://user-images.githubusercontent.com/70633080/148180621-10d3a7fe-2337-4865-9de0-f0fa9fce059e.png)
+- 이를 통해 혈액 내 산소화 헤모글로빈과 탈산소화 헤모글로빈의 농도를 알 수 있음. 
