@@ -25,3 +25,15 @@
 
 ## Background
 ### Contact Photoplethysmography (CPPG)
+- 미세혈관층에서의 혈액량 변화를 감지하기 위한 광학 기술
+- 주로 PPG 센서를 피부 표면에 접촉시킨 후 빛을 입사하여 반사 또는 투과되는 빛을 측정
+- 비박동성인 DC성분과 박동서인 AC성분으로 구성
+- AC 성분: 심장박동에 의한 혈액량의 변화를 보여줌, 산소포화도 측정할 때, AC 성분 사용 
+
+**[산소포화도 측정 원리]**
+
+![image](https://user-images.githubusercontent.com/70633080/148179281-3a23a97c-6ab2-4598-abab-865727f21296.png)
+- 빛의 파장에 따른 헤모글로빈의 absorption coefficient
+- absorption coefficient: 흡관 계수
+- 빛 흡수량 증가 => absorption coefficient 증가
+- 파장에 따라 산소화 헤모글로빈과 탈산소화 헤모글로빈의 absorption coefficient가 다름 
