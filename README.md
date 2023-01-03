@@ -36,4 +36,4 @@ RPPG기술을 이용한 건강 모니터링 SW
   - [UI_9.py](https://github.com/sugyeong-yu/RPPG_Health_Monitoring/blob/main/code/UI_9.py) : main file, UI 동작/thread/button event 
 
 ## Demo
-[![RemotePPG 건강모니터링 SW](http://img.youtube.com/vi/SHJdrnGObvo&t/0.jpg)](https://youtu.be/SHJdrnGObvo&t?t=0s) 
+[![RemotePPG 건강모니터링 SW](http://img.youtube.com/vi/SHJdrnGObvo&t/0.jpg)](https://youtu.be/SHJdrnGObvo&t?t=3s) 
